@@ -5,8 +5,12 @@ int add(int a , int b){
 	 return (a+b);
 }
 
+
 int sub(int a, int b){
-	return (a-b);
+	//Added in bugFix branch
+	int result = 0;
+	result = a-b;
+	return result;
 }
 
 //Added in testing branch

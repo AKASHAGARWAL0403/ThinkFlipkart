@@ -9,6 +9,10 @@ void toTitle(char []){
 	printf("To Title ...");
 }
 
+void toLower(char []){
+	printf("To Lower...");
+}
+
 int main(){
 	printf("Hello world");
 }
